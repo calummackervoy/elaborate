@@ -1,0 +1,52 @@
+
+
+p, div {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    max-width: 480px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+*   Copy the marked CSS below for use in your own project
+*/
+
+.elaborate-marked-text {
+    text-decoration: underline #4c99f0;
+    color: #4c99f0;
+}
+
+.elaborate-overlay {
+    position: fixed absolute;
+    display: none;
+    background-color: #FFF4BE;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#marked-unique-id {
+
+}
+
+#marked-unique-id:hover {
+    color: #9dc3ee;
+    cursor: pointer;
+}
+
+#marked-unique-id:active {
+    color: #9dc3ee;
+}
+
+#overlay-unique-id {
+
+}
+
+/*
+*   End of marked CSS
+*/
